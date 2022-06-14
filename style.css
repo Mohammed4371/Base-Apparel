@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero-desktop{
+    display: none;
+}
+.hero-mobile{
+    border: none;
+    width: 100vw;
+}
+.logo{
+    padding: 30px;
+    width: 170px;
+}
+.logodesktop{
+    display: none;
+}
+.text{
+    background-color: rgba(255,248,249,255);
+    padding: 40px;
+    height: 60vh;
+}
+.paragraph1{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size:2.7rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: rgba(192,158,157,255);
+}
+.paragraph2{
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 2.7rem;
+}
+.paragraph3{
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 2.7rem;
+}
+.paragraph4{
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: rgba(200,165,169,255);
+    padding-top: 20px;
+}
+.input{
+    background: transparent;
+    color: transparent;
+    margin-top: 30px;
+    height: 7vh;
+    width: 285px;
+    border: 2px solid rgba(200,165,169,255);
+    border-radius: 30px;
+    padding: 0px;
+    padding-left: 20px;
+    
+}
+button{
+    background-color: rgba(241,157,157,255);
+    color: white;
+    height: 7vh;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+    margin-left:-55px
+}
+::placeholder{
+    color:rgba(200,165,169,255) ;
+}
+@media only screen and (min-width:768px){
+    .logo{
+        padding: 30px;
+        width: 210px;
+    }
+    .paragraph1{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 300;
+        font-size:3rem;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        color: rgba(192,158,157,255);
+    }
+    .paragraph2{
+        text-align: center;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-size: 3rem;
+    }
+    .paragraph3{
+        text-align: center;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-size: 3rem;
+    }
+    .paragraph4{
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.7rem;
+        color: rgba(200,165,169,255);
+        padding-top: 20px;
+    }
+    .input{
+        background: transparent;
+        color: transparent;
+        margin-top: 30px;
+        margin-left: 150px;
+        height: 7vh;
+        width: 380px;
+        border: 2px solid rgba(200,165,169,255);
+        border-radius: 30px;
+        padding: 0px;
+        padding-left: 20px;
+        
+    }
+    button{
+        font-size: 1.4rem;
+        background-color: rgba(241,157,157,255);
+        color: white;
+        height: 7vh;
+        width: 60px;
+        border-radius: 30px;
+        border: none;
+        margin-left:-65px
+    }
+
+}
+@media only screen and (min-width:1024px){
+    .hero-mobile{
+    display: none;
+    }
+    .logo{
+      display: none;
+    }
+    .hero-desktop{
+        display: inline;
+        float: right;
+    }
+    .text{
+        padding: 40px;
+        background: url(https://raw.githubusercontent.com/codeone-github/access/f9def9a7ae297a0f6aae2d5ee3e66255454010d8/3%20-%20css/css-two/images/bg-pattern-desktop.svg);
+        height: 800px;
+        width:58%;
+        padding-left: 150px;
+    }
+    .logodesktop{
+        display: inline;
+        width: 120px;
+    }
+    .paragraph1{
+        padding-top: 115px;
+        padding-left: 2px;
+        text-align: left;
+        letter-spacing: 9px;
+    }
+    .paragraph2{
+        padding-left: 2px;
+        text-align: left;
+        letter-spacing: 9px;
+    }
+    .paragraph3{
+        padding-left: 2px;
+        text-align: left;
+        letter-spacing: 9px;
+    }
+    .paragraph4{
+        padding-left: 2px;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-right: 190px;
+    }
+    .input{
+        margin-left: 0;
+        height: 48px;
+    }
+    button{
+        height: 48px;
+        /* width: 70px; */
+    }
+
+}
